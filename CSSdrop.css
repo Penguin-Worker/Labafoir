@@ -15,16 +15,17 @@
 }
   
   .frame {
-    position: relative;
-    top : 50px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 90px;
-    width: 1200px;
-    background: #FFFFFF;
-    
-    border-radius: 0px;
-  }.frame2 {
+    /* Frame */
+
+position: absolute;
+height: 90px;
+left: 8.33%;
+right: 8.33%;
+top: calc(50% - 90px/2);
+
+  
+  }
+  .frame2 {
     position: absolute;
     top: 75px;
     left: 50%;
@@ -1333,7 +1334,7 @@
     height: 50px;
     width: 584.81px;
     top:11px;
-    left:590.19px;
+    left: 49.6%;
    text-align: left;
   }
   .frames2forimage{

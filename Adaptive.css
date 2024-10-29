@@ -1,0 +1,317 @@
+@media (max-width: 800px) 
+{
+.header{
+    
+position: absolute;
+height: 90px;
+left: 0%;
+right: 0%;
+top: 0px;
+width: 768px;
+}
+.frame{
+   
+position: absolute;
+height: 90px;
+left: 0%;
+right: 0%;
+top: calc(50% - 90px/2);
+
+}
+.image{
+    
+position: absolute;
+height: 19px;
+left: 2.67%;
+right: 68.69%;
+top: 43px;
+
+border-radius: 0px;
+
+}
+.framesforbuttons{
+   
+position: absolute;
+height: 50px;
+left: 32.68%;
+right: 0.65%;
+top: calc(50% - 50px/2);
+width: 512px;
+
+}
+.button1{
+/* Projects */
+
+position: absolute;
+height: 24px;
+left: 2.73%;
+right: 84.96%;
+top: calc(50% - 24px/2);
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+/* identical to box height, or 160% */
+
+color: #1B1A1A;
+
+}
+.button2{
+    /* About */
+
+position: absolute;
+height: 24px;
+left: 18.55%;
+right: 69.53%;
+top: calc(50% - 24px/2);
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+/* identical to box height, or 160% */
+
+color: #1B1A1A;
+
+}
+.button3{
+    /* News */
+
+position: absolute;
+height: 24px;
+left: 32.03%;
+right: 59.77%;
+top: calc(50% - 24px/2);
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+/* identical to box height, or 160% */
+
+color: #1B1A1A;
+
+}
+
+.button4{
+    /* Team */
+
+position: absolute;
+height: 24px;
+left: 44.34%;
+right: 45.9%;
+top: calc(50% - 24px/2);
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+/* identical to box height, or 160% */
+
+color: #1B1A1A;
+
+}
+
+.button5{
+    /* Contact */
+
+position: absolute;
+height: 24px;
+left: 57.23%;
+right: 29.49%;
+top: calc(50% - 24px/2);
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+/* identical to box height, or 160% */
+
+color: #1B1A1A;
+
+}
+
+.buttonTOPframe{
+    
+position: absolute;
+height: 46px;
+left: 73.5%;
+right: 0%;
+top: calc(50% - 46px/2);
+width: 135.7px;
+}
+.buttonTOP{
+    /* Rectangle */
+
+box-sizing: border-box;
+
+position: absolute;
+height: 46px;
+left: 0%;
+right: 0%;
+top: 0px;
+width: 135.7px;
+background: #1B1A1A;
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 14px;
+
+}
+
+.buttonTOPText{
+    /* Get template */
+
+position: absolute;
+width: 118px;
+height: 24px;
+left: 8.7px;
+top: calc(50% - 24px/2);
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.4px;
+
+color: #FFFFFF;
+
+
+}
+.frame2{
+    
+position: absolute;
+height: 720px;
+margin: 0;
+top: 90px;
+width: 768px;
+}
+.frames2forimage{
+    /* IMAGE */
+
+position : absolute;
+height: 720px;
+left: 50%;
+right: 0%;
+
+width: 384px;
+border-radius: 0px;
+
+}
+.frame2Text{
+   
+position: absolute;
+height: 720px;
+left: 0%;
+right: 50%;
+top: 0px;
+max-width: 384px;
+}
+.frame2Text1{
+    /* Wishbone+Partners */
+
+position: absolute;
+height: 20px;
+left: 7.55%;
+right: 42.97%;
+top: calc(50% - 20px/2 - 342px);
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #645C55;
+
+
+}
+.frame2Text2{
+    /* The home of beautiful architecture. */
+    word-break: break-word;
+position: absolute;
+height: 423px;
+left: 6.77%;
+right: 23.73%;
+top: calc(50% - 423px/2 - 105.5px);
+max-width: 268px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 70px;
+/* or 110% */
+
+color: #1B1A1A;
+
+}
+
+.frame2Text3{
+    /* We are an architecture firm with a focus on beautiful but functional design. At its heart, we believe design is about usability and accessibility — these are the guiding principles for our work. Read more about our previous projects, our process and our team below. */
+
+position: absolute;
+height: 168px;
+left: 7.03%;
+right: 8.14%;
+top: calc(50% - 168px/2 + 189px);
+max-width: 326px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+color: #403E3B;
+
+
+}
+
+.frame2Text4{
+    /* Frame */
+
+position: absolute;
+height: 46px;
+left: 6.77%;
+right: 60.94%;
+top: calc(50% - 46px/2 + 311px);
+
+
+}
+.frame2Text44{
+    /* Read more */
+
+position: absolute;
+height: 24px;
+left: 11.29%;
+right: 10.48%;
+top: calc(50% - 24px/2);
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.4px;
+
+color: #1B1A1A;
+
+
+}
+
+
+
+
+}
+
