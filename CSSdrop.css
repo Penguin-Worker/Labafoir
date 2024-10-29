@@ -1,0 +1,1493 @@
+.header {
+    position: relative;
+    width: 1440px;
+    height: 90px;
+    background: #ffffff;
+    margin: 0 auto;
+    
+     
+  }
+  @font-face {
+    font-family: 'Poppins';
+    src: url('Poppins/Poppins-Regular.ttf') format('truetype'); /* Укажите путь к файлу шрифта .ttf */
+    font-weight: normal;
+    font-style: normal;
+}
+  
+  .frame {
+    position: relative;
+    top : 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 90px;
+    width: 1200px;
+    background: #FFFFFF;
+    
+    border-radius: 0px;
+  }.frame2 {
+    position: absolute;
+    top: 75px;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, 0);
+    height: 720px;
+    width: 1440px;
+    background: #ECE7E4;
+    margin : 20px auto;
+    
+    border-radius: 0px;
+  }
+  .frame2Text {
+    position: absolute;
+    top: 77px;
+    left: 60px;
+    width: 600px;
+    height: 566px;
+    right: 780px; 
+     
+
+}
+
+.frame2Text1 {
+  position: absolute;
+    color: #645C55;
+    font-size: 14px;
+    font-family: Poppins;
+    line-height: 20px;
+    letter-spacing: 2px;    
+    top: 60px;
+    left: 40px;
+    width: 190px;
+    height:20px;
+    right: 370px;
+}
+.frame2Text2 {
+  position: absolute;
+    color: #1B1A1A;
+    font-size: 64px;
+    font-family: Poppins;
+    line-height: 70.4px;
+    letter-spacing: 0px;    
+    top: 100px;
+    left: 40px;
+    width: 417px;
+    height:212px;
+    right: 143px;
+}
+.frame2Text3 {
+  position: absolute;
+    color: #403E3B;
+    font-size: 16px;
+    font-family: Poppins;
+    line-height: 24px;
+    letter-spacing: 0px;    
+    top: 330px;
+    left: 40px;
+    width: 509px;
+    height:120px;
+    right: 51px;
+}
+.frame2Text4 {
+  position: absolute;
+        
+    top: 480px;
+    left: 45px;
+    width: 133px;
+    height:46px;
+    right: 422px;
+}
+.frame2Text44 {
+  position: absolute;
+    color: #1B1A1A;
+    font-size: 16px;
+    font-family: Poppins;
+    line-height: 24px;
+    letter-spacing: 0.4px;    
+    top: 11px;
+    left: 20px;
+    width: 93px;
+    height:24px;
+    right: 20px;
+}
+  .frame3 {
+    position: absolute;
+    top: 795px;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%);
+    height: 782px;
+    width: 1440px;
+    background: white;
+    margin : 20px auto;
+    
+    border-radius: 0px;
+  }
+  .frame3In {
+    position: absolute;
+    top: 100px;
+    left: 602.66px;  
+    height: 582px;
+    width: 501.33px;
+    
+   
+    border-radius: 0px;
+}
+.frame3In2 {
+  position: absolute;
+  top: 462px;  
+  height: 100px;
+  width: 501.33px;  
+  border-radius: 0px;
+}
+.frame3In3 {
+  position: absolute;  
+  height: 100px;
+  
+  width: 196px;  
+  left: 84px;
+  border-radius: 0px;
+}
+  .frame3Text1 {
+    position: absolute;
+      color: #403E3B;
+      font-size: 32px;
+      font-family: Poppins;
+      line-height: 38px;
+      letter-spacing: 0px;    
+      top: 96px;
+      left: 336px;
+      width: 134px;
+      height:38px;
+      right: 970px;
+  }
+  .frame3Text2 {
+    position: absolute;
+      color: #403E3B;
+      font-size: 16px;
+      font-family: Poppins;
+      line-height: 24px;
+      letter-spacing: 0px;    
+      top: 0px;
+      left: 0.34px;
+      width: 493px;
+      height:144px;
+      right: 7.98px;
+      text-align: left;
+  }
+  .frame3Text3 {
+    position: absolute;
+      color: #403E3B;
+      font-size: 16px;
+      font-family: Poppins;
+      line-height: 24px;
+      letter-spacing: 0px;    
+      top: 154px;
+      left: 0.34px;
+      width: 493px;
+      height:144px;
+      right: 7.98px;
+      text-align: left;
+      
+  }
+  .frame3Text4 {
+    position: absolute;
+      color: #403E3B;
+      font-size: 16px;
+      font-family: Poppins;
+      line-height: 24px;
+      letter-spacing: 0px;    
+      top: 308px;
+      left: 0.34px;
+      width: 493px;
+      height:144px;
+      right: 7.98px;
+      text-align: left;
+      text-align: top;
+  }
+  .frame3Text5 {
+    position: absolute;
+      color: #1B1A1A;
+      font-size: 17px;
+      font-family: Poppins;
+      line-height: 26px;
+      letter-spacing: 0px;    
+      top: 30px;
+      left: 30.34px;
+      width: 136px;
+      height:26px;
+      right: 29.66px;
+  }
+  .frame3Text6 {
+    position: absolute;
+      color: #645C55;
+      font-size: 14px;
+      font-family: Poppins;
+      line-height: 14px;
+      letter-spacing: 0px;    
+      top: 53px;
+      left: 30.34px;
+      width: 136px;
+      height:26px;
+      right: 29.66px;
+  }
+  .frame3Image {
+    position: absolute;
+             
+      top: 8px;      
+      width: 84px;
+      height:84px;
+      left: 0.34px;
+  }
+  .frame4 {
+    position: absolute;
+    top: 1577px;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%);
+    height: 600px;
+    width: 1440px;
+    background-image: url('IMAGE14.png');
+  background-size: cover;
+    margin : 20px auto;
+    
+    border-radius: 0px;
+  }
+  .frame4In {
+    position: absolute;
+    top: 0px;
+    left: 1080px;  
+    height: 600px;
+    width: 300px;   
+    border-radius: 0px;
+}
+.frame4Text1 {
+  position: absolute;
+    color: #403E3B;
+    font-size: 14px;
+    font-family: Poppins;
+    line-height: 20px;
+    letter-spacing: 2px;    
+    top: 266px;
+    left: 0px;
+    width: 137px;
+    height:20px;
+    right: 29.66px;
+    text-align: left;
+}
+.frame4Text2 {
+  position: absolute;
+    color: #645C55;
+    font-size: 16px;
+    font-family: Poppins;
+    line-height: 24px;
+    letter-spacing: 0px;    
+    top: 286px;
+    left: 0px;
+    width: 285px;
+    height:48px;
+    text-align: left;
+}
+  .frame5 {
+    position: absolute;
+    top: 2177px;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%);
+    height: 600px;
+    width: 1440px;
+   background:white;
+    margin : 20px auto;
+    
+    border-radius: 0px;
+  }
+  .frame5Layout {
+    position: absolute;
+    top: 100px;
+    left: 120px;  
+    height: 381px;
+    width: 1200px;   
+    border-radius: 0px;
+    
+}
+.frame5In {
+  position: absolute;
+  top: 0px;
+  left: 300px;  
+  height: 82px;
+  width: 600px;   
+  border-radius: 0px;
+  
+}
+.frame5In2 {
+  position: absolute;
+  top: 122px;
+  left: 16px;  
+  height: 259px;
+  width: 1168px;   
+  border-radius: 0px;
+  
+}
+.frame5In2In1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;  
+  height: 259px;
+  width: 378.66px;   
+  border-radius: 0px;
+  
+}
+.frame5In2In2 {
+  position: absolute;
+  top: 0px;
+  left: 394.67px;  
+  height: 259px;
+  width: 378.66px;   
+  border-radius: 0px;
+  
+}
+.frame5In2In3 {
+  position: absolute;
+  top: 0px;
+  left: 789.34px;  
+  height: 259px;
+  width: 378.66px;   
+  border-radius: 0px;
+  
+}
+.frame5In2In13OP {
+  position: absolute;
+  top: 117px;
+  left: 0px;  
+  height: 132px;
+  width: 378.66px;   
+  border-radius: 0px;
+  
+}
+.frame5In2In2OP {
+  position: absolute;
+  top: 117px;
+  left: 0px;  
+  height: 108px;
+  width: 378.66px;   
+  border-radius: 0px;
+  
+}
+
+.frame5Text1 {
+  position: absolute;
+    color: #645C55;
+    font-size: 14px;
+    font-family: Poppins;
+    line-height: 20px;
+    letter-spacing: 2px;    
+    top: 0px;
+    left: 239px;
+    width: 122px;
+    height:20px;
+    text-align: center;
+}
+.frame5Text2 {
+  position: absolute;
+    color: #1B1A1A;
+    font-size: 39px;
+    font-family: Poppins;
+    line-height: 42px;
+    letter-spacing: 0px;    
+    top: 33px;
+    left: 71px;
+    width: 468px;
+    height:42px;
+    
+}
+.frame5Text1OP_1 {
+  position: absolute;
+    color: #403E3B;
+    font-size: 18px;
+    font-family: Poppins;
+    line-height: 26px;
+    letter-spacing: 0px;    
+    top: 0px;
+    left: 145px;
+    width: 89px;
+    height:26px;
+    text-align: center;
+}
+.frame5Text2OP_1 {
+  position: absolute;
+    color: #403E3B;
+    font-size: 17px;
+    font-family: Poppins;
+    line-height: 26px;
+    letter-spacing: 0px;    
+    top: 0px;
+    left: 149.33px;
+    width: 80px;
+    height:26px;
+    text-align: center;
+}
+.frame5Text3OP_1 {
+  position: absolute;
+    color: #403E3B;
+    font-size: 17px;
+    font-family: Poppins;
+    line-height: 26px;
+    letter-spacing: 0px;    
+    top: 0px;
+    left: 154.66px;
+    width: 69px;
+    height:26px;
+    text-align: center;
+}
+.frame5Text1OP_2 {
+  position: absolute;
+    color: #645C55;
+    font-size: 15px;
+    font-family: Poppins;
+    line-height: 24px;
+    letter-spacing: 0px;    
+    top: 36px;
+    left: 42px;
+    width: 294px;
+    height:96px;
+    text-align: center
+}
+.frame5Text2OP_2 {
+  position: absolute;
+    color: #645C55;
+    font-size: 16px;
+    font-family: Poppins;
+    line-height: 24px;
+    letter-spacing: 0px;    
+    top: 36px;
+    left: 43.33px;
+    width: 292px;
+    height:72px;
+    text-align: center;
+}
+.frame5Text3OP_2 {
+  position: absolute;
+    color: #645C55;
+    font-size: 16px;
+    font-family: Poppins;
+    line-height: 24px;
+    letter-spacing: 0px;    
+    top: 36px;
+    left: 46.66px;
+    width: 285px;
+    height:96px;
+    text-align: center;
+}
+.frame5forImage1 {
+  position: absolute;
+           
+    top: 0px;      
+    width: 117px;
+    height:102px;
+    left: 130px;
+}
+.frame5forImage23 {
+  position: absolute;
+           
+    top: 0px;      
+    width: 117px;
+    height:102px;
+    left: 130.33px;
+}
+
+  .frame6 {
+    position: absolute;
+    top:581px;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%);
+    height: 600px;
+    width: 1440px;
+    background-image: url('IMAGE15.png');
+  background-size: cover;
+    margin : auto;
+    
+    border-radius: 0px;
+  }
+  .frame6Text1 {
+    position: absolute;
+      color: #403E3B;
+      font-size: 14px;
+      font-family: Poppins;
+      line-height: 20px;
+      letter-spacing: 2px;    
+      top: 266px;
+      left: 0px;
+      width: 205px;
+      height:20px;
+      right: 29.66px;
+      text-align: left;
+  }
+  .frame7 {
+    position: absolute;
+    top: 1181px;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%);
+    height: 410px;
+    width: 1440px;
+    background: #403E3B;
+    margin :  auto;
+    
+    border-radius: 0px;
+  }
+  .frame7In {
+    position: absolute;
+    top: 60px;
+    left: 136px;  
+    height: 290px;
+    width: 1168px;   
+    border-radius: 0px;
+    
+  }
+  .frame7In1 {
+    position: absolute;
+    top: 65px;
+    left: 0px;  
+    height: 160px;
+    width: 460px;   
+    border-radius: 0px;
+    
+  }
+  .frame7In2 {
+    position: absolute;
+    top: 0px;
+    left: 592px;  
+    height: 290px;
+    width: 432px;   
+    border-radius: 0px;
+    
+  }
+
+  .frame7Text1 {
+    position: absolute;
+      color: #ECE7E4;
+      font-size: 14px;
+      font-family: Poppins;
+      line-height: 20px;
+      letter-spacing: 2px;    
+      top: 10px;
+      left: 0px;
+      width: 129px;
+      height:20px;
+      
+      text-align: left;
+  }
+  .frame7Text2 {
+    position: absolute;
+      color: #FFFFFF;
+      font-size: 32px;
+      font-family: Poppins;
+      line-height: 38px;
+      letter-spacing: 0px;    
+      top: 26px;
+      left: 0px;
+      width: 299px;
+      height:38px;
+      
+      text-align: left;
+  }
+  .frame7Text3 {
+    position: absolute;
+      color: #ECE7E4;
+      font-size: 15px;
+      font-family: Poppins;
+      line-height: 24px;
+      letter-spacing: 0px;    
+      top: 78px;
+      left: 0px;
+      width: 451px;
+      height:72px;
+      
+      text-align: left;
+  }
+  .frame7forImage1 {
+    position: absolute;
+             
+      top: 214px;      
+      width: 128px;
+      height:36px;
+      left: 264px;
+  }
+  .frame7forImage2 {
+    position: absolute;
+             
+      top: 40px;      
+      width: 128px;
+      height:78px;
+      left: 264px;
+  }
+  .frame7forImage3 {
+    position: absolute;
+             
+      top: 222px;      
+      width: 128px;
+      height:20px;
+      left: 40px;
+  }
+  .frame7forImage4 {
+    position: absolute;
+             
+      top: 64px;      
+      width: 128px;
+      height:30px;
+      left: 40px;
+  }
+  .frame8 {
+    position: absolute;
+    top: 1591px;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%);
+    height: 600px;
+    width: 1440px;
+    background-image: url('IMAGE16.png');
+  background-size: cover;
+    margin : auto;
+    
+    border-radius: 0px;
+  }
+  .frame8In {
+    position: absolute;
+    top: 0px;
+    left: 60px;  
+    height: 600px;
+    width: 300px;   
+    border-radius: 0px;
+    
+  }
+  .frame8Text1 {
+    position: absolute;
+      color: #403E3B;
+      font-size: 14px;
+      font-family: Poppins;
+      line-height: 20px;
+      letter-spacing: 2px;    
+      top: 266px;
+      left: 0px;
+      width: 223px;
+      height:20px;
+      right: 29.66px;
+      text-align: left;
+  }
+  .frame9 {
+    position: absolute;
+    top: 2191px;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%);
+    height: 918px;
+    width: 1440px;
+    background:#F7F7F7;
+    margin :auto;
+    
+    border-radius: 0px;
+  }
+  .frame9In {
+    position: absolute;
+    top: 122px;
+    left: 120px;  
+    height: 698px;
+    width: 1200px;   
+    border-radius: 0px;
+    
+  }
+  .frame9In1 {
+    position: absolute;
+    top: 652px;
+    left: 513px;  
+    height: 46px;
+    width: 180px;   
+    border-radius: 0px;
+    background-color: transparent; /* Прозрачный фон */
+    border: none; /* Убираем границу */
+    outline: none; /* Убираем контур при фокусе */
+    cursor: pointer; /* Указатель мыши при наведении */
+  }
+  .frame9In2 {
+    position: absolute;
+    top: 0px;
+    left: 16px;  
+    height: 112px;
+    width: 600px;   
+    border-radius: 0px;
+    
+  }
+  .frame9In3 {
+    position: absolute;
+    top: 152px;
+    left: 16px;  
+    height: 460px;
+    width: 1168px;   
+    border-radius: 0px;
+    
+  }
+  .frame9In3_1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;  
+    height: 460px;
+    width: 379px;   
+    border-radius: 0px;
+    
+  }
+  .frame9In3_2 {
+    position: absolute;
+    top: 0px;
+    left: 395px;  
+    height: 460px;
+    width: 379px;   
+    border-radius: 0px;
+    
+  }
+  .frame9In3_3 {
+    position: absolute;
+    top: 0px;
+    left: 789px;  
+    height: 460px;
+    width: 379px;   
+    border-radius: 0px;
+    
+  }
+  .frame9Image1 {
+    position: absolute;
+             
+      top: 2px;      
+      width: 375px;
+      height:456px;
+      left: 2px;      
+  }
+  .frame9TextOnImage {
+    position: absolute;             
+      top: 42px;    
+            left: 41.67px; 
+  }
+  .frame9TextOnImage1 {
+    position: absolute;             
+    position: absolute;
+    color: #645C55;
+    font-size: 14px;
+    font-family: Poppins;
+    line-height: 20px;
+    letter-spacing: 2px;    
+    top: 0px;
+    left: 0.33px;
+    text-align: left;
+    width: 375px;
+  }
+  .frame9TextOnImage2 {
+    position: absolute;             
+    position: absolute;
+    color: #403E3B;
+    font-size: 23px;
+    font-family: Poppins;
+    line-height: 30px;
+    letter-spacing: 0px;    
+    top: 18px;
+    left: 0.33px;
+    text-align: left;
+    width: 375px;
+  }
+  .frame9LMAO {
+    position: absolute;
+             
+      top: 370px;      
+      width: 133px;
+      height:44px;
+      left: 45px;    
+      
+  }
+  .frame9buttonTOP {
+    display: inline-block;    
+    background-color: #1B1A1A;
+    border-radius: 14px;
+    cursor: pointer;
+    width: 133px;
+      height:48px;
+    
+      
+  }
+  .buttonTOPText {
+    position: absolute;
+      color: #FFFFFF;
+      font-size: 16px;
+      font-family: Poppins;
+      line-height: 24px;
+      letter-spacing: 0.4px;    
+      top: 11px;
+      left: 20px;
+      width: 93px;
+      height:24px;
+      right: 0px;
+      text-align: left;
+  }
+  
+  .frame9Text1 {
+    position: absolute;
+      color: #1B1A1A;
+      font-size: 16px;
+      font-family: Poppins;
+      line-height: 24px;
+      letter-spacing: 0.4px;    
+      top: 11px;
+      left: 20px;
+      width: 140px;
+      height:24px;
+      right: 20px;
+      text-align: center;      
+      
+  }
+  
+  .frame9Text2 {
+    position: absolute;
+      color: #1B1A1A;
+      font-size: 39px;
+      font-family: Poppins;
+      line-height: 42px;
+      letter-spacing: 0px;    
+      top: 0px;
+      left: 0px;
+      width: 351px;
+      height:42px;
+      right: 0px;
+      text-align: left;
+  }
+  .frame9Text3 {
+    position: absolute;
+      color: #645C55;
+      font-size: 24px;
+      font-family: Poppins;
+      line-height: 30px;
+      letter-spacing: 0px;    
+      top: 50px;
+      left: 0px;
+      width: 581px;
+      height:60px;
+      right: 0px;
+      text-align: left;
+  }
+  .frame10 {
+    position: absolute;
+    top: 3100px;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%);
+    height: 592px;
+    width: 1440px;
+    
+
+    margin :  auto;
+    
+    border-radius: 0px;
+  }
+  .frame10In {
+    position: absolute;
+    top: 100px;
+    left: 136px;  
+    height: 392px;
+    width: 1168px;   
+    border-radius: 0px;
+    
+  }
+  .frame10In1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;  
+    height: 392px;
+    width: 378.66px;   
+    border-radius: 0px;
+    
+  }
+  .frame10In2 {
+    position: absolute;
+    top: 8px;
+    left: 394.67px;  
+    height: 392px;
+    width: 773.33px;   
+    border-radius: 0px;
+    
+  }
+  .frame10In2In1 {
+    position: absolute;
+    top: 272px;
+    left: 0px;  
+    height: 100px;
+    width: 231px;   
+    border-radius: 0px;
+    
+  }
+  .frame10In2In2 {
+    position: absolute;
+    top: 129px;
+    left: 394.33px;  
+    height: 100px;
+    width: 247px;   
+    border-radius: 0px;
+    
+  }
+  .frame10In2In3 {
+    position: absolute;
+    top: 136px;
+    left: 0px;  
+    height: 100px;
+    width: 275px;   
+    border-radius: 0px;
+    
+  }
+  .frame10In2In4 {
+    position: absolute;
+    top: 0px;
+    left: 394.67px;  
+    height: 100px;
+    width: 258px;   
+    border-radius: 0px;
+    
+  }
+  .frame10In2In5 {
+    position: absolute;
+    top: 0px;
+    left: 0px;  
+    height: 100px;
+    width: 280px;   
+    border-radius: 0px;
+    
+  }
+  .frame10In2In1In {
+    position: absolute;
+    top: 0px;
+    left: 84px;  
+    height: 100px;
+    width: 147px;   
+    border-radius: 0px;
+    
+  }
+  .frame10In2In3In {
+    position: absolute;
+    top: 0px;
+    left: 84px;  
+    height: 100px;
+    width: 191px;   
+    border-radius: 0px;
+    
+  }
+  .frame10TextIn2_1 {
+    position: absolute;
+      color: #1B1A1A;
+      font-size: 18;
+      font-family: Poppins;
+      line-height: 26px;
+      letter-spacing: 0px;       
+      
+      top:30px;
+      left:30.33px;
+      text-align: left;
+  }
+  .frame10TextIn2_2 {
+    position: absolute;
+      color: #645C55;
+      font-size: 14;
+      font-family: Poppins;
+      line-height: 14px;
+      letter-spacing: 0px;       
+      
+      top:53px;
+      left:30.33px;
+      text-align: left;
+  }
+  .frame10Image1 {
+    position: absolute;
+             
+      top: 8px;      
+      width: 84px;
+      height:84px;
+      left: 0.33px;
+      
+  }
+  .frame10In1In {
+    position: absolute;
+    top: 158px;
+    left: 5px;  
+    height: 46px;
+    width: 121px;   
+    border-radius: 0px;
+    background-color: transparent; /* Прозрачный фон */
+    border: none; /* Убираем границу */
+    outline: none; /* Убираем контур при фокусе */
+    cursor: pointer; /* Указатель мыши при наведении */
+  }
+  .frame10Text1In {
+    position: absolute;
+      color: #1B1A1A;
+      font-size: 16px;
+      font-family: Poppins;
+      line-height: 24px;
+      letter-spacing: 0.4px;       
+      width: 81px;
+      height:24px;
+      top:11px;
+      left:20px;
+      text-align: left;
+  }
+  .frame10Text1 {
+    position: absolute;
+      color: #403E3B;
+      font-size: 32px;
+      font-family: Poppins;
+      line-height: 38px;
+      letter-spacing: 0px;    
+      top: 4px;
+      left: 0px;
+      width: 240px;
+      height:38px;
+      right: 0px;
+      text-align: left;
+  }
+  .frame10Text2 {
+    position: absolute;
+      color: #645C55;
+      font-size: 15px;
+      font-family: Poppins;
+      line-height: 24px;
+      letter-spacing: 0px;    
+      top: 56px;
+      left: 0px;
+      width: 358px;
+      height:72px;      
+      text-align: left;
+  }
+  .frame11 {
+    position: absolute;
+    top: 3703px;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%);
+    height: 314px;
+    width: 1440px;
+    background: #CEC4BC;
+    margin : auto;
+    
+    border-radius: 0px;
+  }
+  .frame11In {
+    position: absolute;
+    top: 100px;
+    left: 136px;  
+    height: 114px;
+    width: 1168px;   
+    border-radius: 0px;    
+  }
+  .frame11In1 {
+    position: absolute;
+    top: 00px;
+    left: 0px;  
+    height: 114px;
+    width: 576px;   
+    border-radius: 0px;    
+  }
+  .frame11In2 {
+    position: absolute;
+    top: 34px;
+    left: 1023px;  
+    height: 46px;
+    width: 145px;   
+    border-radius: 0px;   
+    background-color: transparent; /* Прозрачный фон */
+    border: none; /* Убираем границу */
+    outline: none; /* Убираем контур при фокусе */
+    
+  }
+  .frame11Text3 {
+    position: absolute;
+      color: #1B1A1A;
+      font-size: 16px;
+      font-family: Poppins;
+      line-height: 24px;
+      letter-spacing: 0.4px;    
+      top: 11px;
+      left: 20px;
+      width: 569px;
+      height:84px;
+      right: 0px;
+      text-align: left;
+  }
+  .frame11Text1 {
+    position: absolute;
+      color: #1B1A1A;
+      font-size: 40px;
+      font-family: Poppins;
+      line-height: 42px;
+      letter-spacing: 0px;    
+      top: 13px;
+      left: 0px;
+      width: 569px;
+      height:84px;
+      right: 0px;
+      text-align: left;
+  }
+  .frame11Text2 {
+    position: absolute;
+      color: #645C55;
+      font-size: 14px;
+      font-family: Poppins;
+      line-height: 20px;
+      letter-spacing: 2px;    
+      top: 0px;
+      left: 0px;
+      width: 142px;
+      height:20px;
+      right: 0px;
+      text-align: left;
+  }
+
+  .frame12 {
+    position: absolute;
+    top: 4017px;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%);
+    height: 204px;
+    width: 1440px;
+    
+    margin : auto;
+    
+    border-radius: 0px;
+  }
+  .frame12In {
+    position: absolute;
+    top: 60px;
+    left: 136px;  
+    height: 84px;
+    width: 1168px;   
+    border-radius: 0px;    
+  }
+  .frame12In1 {
+    position: absolute;
+    top: 00px;
+    left: 0px;  
+    height: 84px;
+    width: 694.39px;   
+    border-radius: 0px;    
+  }
+  .frame12In2 {
+    position: absolute;
+    top: 59.39px;
+    left: 1055.98px;  
+    height: 24.61px;
+    width: 112px;   
+    border-radius: 0px;    
+  }
+  .frame12In2In1 {
+    position: absolute;
+    top: 0.39px;
+    left: 88.02px;  
+    height: 25px;
+    width: 24px;   
+    border-radius: 0px;
+    background-color: transparent; /* Прозрачный фон */
+    border: none; /* Убираем границу */
+    outline: none; /* Убираем контур при фокусе */
+    cursor: pointer; /* Указатель мыши при наведении */    
+  }
+  .frame12In2In2 {
+    position: absolute;
+    top: 0.39px;
+    left: 44.02px;  
+    height: 25px;
+    width: 24px;   
+    border-radius: 0px;   
+    background-color: transparent; /* Прозрачный фон */
+    border: none; /* Убираем границу */
+    outline: none; /* Убираем контур при фокусе */
+    cursor: pointer; /* Указатель мыши при наведении */ 
+  }
+  .frame12In2In3 {
+    position: absolute;
+    top: 0.39px;
+    left: 0.02px;  
+    height: 25px;
+    width: 24px;   
+    border-radius: 0px;    
+    background-color: transparent; /* Прозрачный фон */
+    border: none; /* Убираем границу */
+    outline: none; /* Убираем контур при фокусе */
+    cursor: pointer; /* Указатель мыши при наведении */
+  }
+  .frame12In1In {
+    position: absolute;
+    top: 44px;
+    left: 0px;  
+    height: 40px;
+    width: 694.39px;   
+    border-radius: 0px;    
+  }
+  .frame12TextIn1 {
+    position: absolute;
+      color: #645C55;
+      font-size: 13px;
+      font-family: Poppins;
+      line-height: 20px;
+      letter-spacing: 0px;    
+      top: 20px;
+      left: 298px;
+      width: 64px;
+      height:20px;
+      right: 0px;
+      text-align: left;
+  }
+  .frame12TextIn2 {
+    position: absolute;
+      color: #645C55;
+      font-size: 14px;
+      font-family: Poppins;
+      line-height: 20px;
+      letter-spacing: 0px;    
+      top: 00px;
+      left: 00px;
+      width: 85px;
+      height:20px;
+      right: 0px;
+      text-align: left;
+  }
+  .frame12TextIn3 {
+    position: absolute;
+      color: #645C55;
+      font-size: 14px;
+      font-family: Poppins;
+      line-height: 20px;
+      letter-spacing: 0px;    
+      top: 00px;
+      left: 146px;
+      width: 3px;
+      height:20px;
+      right: 0px;
+      text-align: left;
+  }
+  .frame12TextIn4 {
+    position: absolute;
+      color: #645C55;
+      font-size: 14px;
+      font-family: Poppins;
+      line-height: 20px;
+      letter-spacing: 0px;    
+      top: 20px;
+      left: 362px;
+      width: 3px;
+      height:20px;
+      right: 0px;
+      text-align: left;
+  }
+  .frame12TextIn5 {
+    position: absolute;
+      color: #645C55;
+      font-size: 14px;
+      font-family: Poppins;
+      line-height: 20px;
+      letter-spacing: 0px;    
+      top: 20px;
+      left: 0px;
+      width: 298px;
+      height:20px;
+      right: 0px;
+      text-align: left;
+  }
+  .frame12TextIn6 {
+    position: absolute;
+      color: #645C55;
+      font-size: 14px;
+      font-family: Poppins;
+      line-height: 20px;
+      letter-spacing: 0px;    
+      top: 0px;
+      left: 85px;
+      width: 61px;
+      height:20px;
+      right: 0px;
+      text-align: left;
+  }
+  .frame12Image1 {
+    position: absolute;
+             
+      top: 2px;      
+      width: 256px;
+      height:22px;
+      left: 0px;
+      
+  }
+  .frame12Image2 {
+    position: absolute;
+             
+      top: 1px;      
+      width: 24px;
+      height:24px;
+      left: 0px;
+      
+  }
+  .framesforbuttons{
+    
+    position: absolute;   
+    
+    height: 50px;
+    width: 584.81px;
+    top:11px;
+    left:590.19px;
+   text-align: left;
+  }
+  .frames2forimage{
+    
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;   
+   
+  }
+  
+  
+  .image {
+    position: absolute;
+    top: 36px;
+    left: 32px;
+    transform: translateY(-50%);
+    height: 19px;
+  }
+  
+  .nav-buttons {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+  }
+  
+  .button1 {
+    position: absolute;
+      color: #1B1A1A;
+      font-size: 15px;
+      font-family: Poppins;
+      line-height: 24px;
+      letter-spacing: 0px;    
+      top: 13px;
+      left: 15.81px;
+      width: 61px;
+      height:24px;
+      right: 0px;
+      text-align: left;
+      background-color: transparent; /* Прозрачный фон */
+    border: none; /* Убираем границу */
+    outline: none; /* Убираем контур при фокусе */
+    cursor: pointer; /* Указатель мыши при наведении */
+  }
+  .button2 {
+    position: absolute;
+      color: #1B1A1A;
+      font-size: 15px;
+      font-family: Poppins;
+      line-height: 24px;
+      letter-spacing: 0px;    
+      top: 13px;
+      left: 108.81px;
+      width: 46px;
+      height:24px;
+      right: 0px;
+      text-align: left;
+      background-color: transparent; /* Прозрачный фон */
+    border: none; /* Убираем границу */
+    outline: none; /* Убираем контур при фокусе */
+    cursor: pointer; /* Указатель мыши при наведении */
+  }
+  .button3 {
+    position: absolute;
+      color: #1B1A1A;
+      font-size: 15px;
+      font-family: Poppins;
+      line-height: 24px;
+      letter-spacing: 0px;    
+      top: 13px;
+      left: 186.81px;
+      width: 40px;
+      height:24px;
+      right: 0px;
+      text-align: left;
+      background-color: transparent; /* Прозрачный фон */
+    border: none; /* Убираем границу */
+    outline: none; /* Убираем контур при фокусе */
+    cursor: pointer; /* Указатель мыши при наведении */
+  }
+  .button4 {
+    position: absolute;
+      color: #1B1A1A;
+      font-size: 15px;
+      font-family: Poppins;
+      line-height: 24px;
+      letter-spacing: 0px;    
+      top: 13px;
+      left: 258.81px;
+      width: 44px;
+      height:24px;
+      right: 0px;
+      text-align: left;
+      background-color: transparent; /* Прозрачный фон */
+    border: none; /* Убираем границу */
+    outline: none; /* Убираем контур при фокусе */
+    cursor: pointer; /* Указатель мыши при наведении */
+     
+    
+      
+  }
+  .button5 {
+    position: absolute;
+      color: #1B1A1A;
+      font-size: 15px;
+      font-family: Poppins;
+      line-height: 24px;
+      letter-spacing: 0px;    
+      top: 13px;
+      left: 334.81px;
+      width: 64px;
+      height:24px;
+      right: 0px;
+      text-align: left;
+      background-color: transparent; /* Прозрачный фон */
+    border: none; /* Убираем границу */
+    outline: none; /* Убираем контур при фокусе */
+    cursor: pointer; /* Указатель мыши при наведении */
+  }
+  .buttonTOPframe {
+    position: absolute;
+             
+    top: 4px;      
+    width: 256px;
+    height:22px;
+    left: 434.81px;
+  }
+  .buttonTOP {
+    display: inline-block;    
+    background-color: #1B1A1A;
+    border-radius: 14px;
+    cursor: pointer;
+    width: 155px;
+      height:46px;
+    
+      
+  }
+  .buttonTOPText {
+    position: absolute;
+      color: #FFFFFF;
+      font-size: 16px;
+      font-family: Poppins;
+      line-height: 24px;
+      letter-spacing: 0.4px;    
+      top: 11px;
+      left: 20px;
+      width: 115px;
+      height:24px;
+      right: 0px;
+      text-align: left;
+  }
+  
+  .button:not(:last-child) {
+    margin-right: 10px;
+  }
+  
