@@ -1180,6 +1180,1109 @@ top: 59.38px;
 
 
 }
-@media screen(max-width:400px) {
+@media(max-width:400px) {
+   
+   body{
+        max-width: 320px;
+    }
+header{
+    /* Frame */
+
+position: absolute;
+height: 90px;
+left: 0%;
+right: 0%;
+top: 0px;
+max-width: 320px;
+
+}
+.frame{
+    /* Frame */
+
+position: absolute;
+height: 90px;
+left: 0%;
+right: 0%;
+top: calc(50% - 90px/2);
+
+}
+.image{
+    /* IMAGE */
+
+position: absolute;
+height: 19px;
+left: 2.67%;
+right: 28.58%;
+top: 44px;
+
+border-radius: 0px;
+
+}
+
+.button1{
+    display: none;
+   
+}
+
+.button2{
+    display: none;
+}
+.button3{
+    display: none;
+}
+.button4{
+    display: none;
+}
+.button5{
+    display: none;
+}
+.buttonTOPframe{
+    /* Frame */
+
+position: absolute;
+height: 46px;
+left: 81.68%;
+right: 0.65%;
+top: calc(50% - 46px/2);
+
+width: 56.54px;
+}
+.buttonTOP{
+    /* Rectangle */
+
+box-sizing: border-box;
+
+position: absolute;
+height: 46px;
+left: 0%;
+right: 0%;
+top: 0px;
+width: 56.54px;
+background: #1B1A1A;
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 14px;
+
+}
+.framesforbuttons{
+    /* Frame */
+
+position: absolute;
+height: 90px;
+left: 0%;
+right: 0%;
+top: calc(50% - 90px/2);
+max-width: 320px;
+
+}
+.buttonTOPText{
+    /* Get */
+display:none;
+position: absolute;
+height: 24px;
+left: 24.1%;
+right: 21.08%;
+top: calc(50% - 24px/2);
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.4px;
+
+color: #FFFFFF;
+}
+
+.frame2{
+    /* Frame */
+
+position: absolute;
+height: 972px;
+
+top: 90px;
+
+background: #ECE7E4;
+border-radius: 0px;
+
+max-width: 320px;
+}
+
+.frames2forimage{
+   /* IMAGE */
+   object-fit: cover;
+position: absolute;
+height: 720px;
+left: 50%;
+right: 0%;
+top: 37.1%;
+width: 160px;
+border-radius: 0px;
+
+}
+.frame2Text{
+    /* Frame */
+
+position: absolute;
+height: 720px;
+left: 0%;
+right: 50%;
+top: 0px;
+max-width: 160px;
+
+}
+
+.frame2Text1{
+    /* Wishbone+Partners */
+    word-wrap: break-word;
+position: absolute;
+height: 40px;
+left: 7.5%;
+right: 31.88%;
+top: calc(50% - 40px/2 - 332px);
+max-width: 97px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #645C55;
+
+}
+.frame2Text2{
+    /* The home of beautiful architecture. */
+    word-wrap: break-word;
+position: absolute;
+height: 634px;
+left: 6.88%;
+right: 0%;
+top: calc(50% - 634px/2);
+max-width: 149px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 70px;
+/* or 110% */
+
+color: #1B1A1A;
+
+
+}
+
+.frame2Text3{
+    /* We are an architecture firm with a focus on beautiful but functional design. At its heart, we believe design is about usability and accessibility — these are the guiding principles for our work. Read more about our previous projects, our process and our team below. */
+
+position: absolute;
+height: 216px;
+left: 6.88%;
+right: -76.25%;
+top: calc(50% - 216px/2 + 468px);
+max-width: 271px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+color: #403E3B;
+
+
+}
+
+.frame2Text4{
+    /* Frame */
+
+position: absolute;
+height: 30px;
+left: 3.12%;
+right: 31.25%;
+top: calc(50% - 30px/2 + 591px);
+
+
+}
+
+.frame2Text44{
+    /* Read more */
+
+position: absolute;
+height: 24px;
+left: 4.76%;
+right: 3.97%;
+top: calc(50% - 24px/2);
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.4px;
+
+color: #1B1A1A;
+
+
+}
+ .frame3{
+    /* Frame */
+
+position: absolute;
+height: 893px;
+
+top: 1062px;
+
+max-width: 320px;
+ }
+.frame3In{
+    /* Frame */
+
+position: absolute;
+height: 791px;
+left: 0%;
+right: 0%;
+top: 38px;
+
+max-width: 320px;
+}
+
+.frame3Text4{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere. */
+
+position: absolute;
+height: 216px;
+left: 0.24%;
+right: -0.24%;
+top: 454px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+color: #403E3B;
+
+max-width: 320px;
+}
+
+
+.frame3Text2{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere. */
+
+position: absolute;
+height: 216px;
+left: 0.24%;
+right: -0.24%;
+top: 230px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+color: #403E3B;
+
+max-width: 320px;
+}
+
+.frame3Text3{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere. */
+
+position: absolute;
+height: 216px;
+left: 0%;
+right: 0%;
+top: 14px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+color: #403E3B;
+
+max-width: 320px;
+}
+
+.frame3In2{
+   
+position: absolute;
+height: 100px;
+left: 0%;
+right: 12.61%;
+top: 691px;
+
+max-width: 320px;
+}
+
+.frame4{
+
+position: absolute;
+height: 600px;
+top: 1891px;
+
+max-width: 320px;
+}
+
+.frame4In{
     
+position: absolute;
+height: 600px;
+left: 0%;
+right: 0%;
+top: 0px;
+width: 320px;
+
+}
+
+.frame5{
+    
+position: absolute;
+height: 1020px;
+max-width: 320px;
+top: 2491px;
+
+}
+.frame5Layout{
+    max-width: 320px;
+}
+
+.frame5In{
+    /* Frame */
+
+position: absolute;
+height: 82px;
+left: 25%;
+right: 25%;
+top: 38px;
+width: 160px;
+
+}
+
+.frame5Text2{
+    /* How we do what we do. */
+
+position: absolute;
+width: 320px;
+height: 82px;
+left: calc(50% - 320px/2 + 1px);
+top: 33px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 39px;
+line-height: 42px;
+/* or 108% */
+text-align: center;
+
+color: #1B1A1A;
+
+
+}
+
+.frame5In2{
+    max-width: 320px;
+    height: 1020px;
+    top: 0;
+
+}
+
+.frame5In2In1{
+    /* Frame */
+
+position: absolute;
+height: 259px;
+left: 29px;
+top: 174px;
+width: 320px;
+
+}
+.frame5In2In2{
+    /* Frame */
+
+position: absolute;
+height: 259px;
+left: 29px;
+top: 463px;
+
+
+}
+
+.frame5In2In3{
+    /* Frame */
+
+position: absolute;
+height: 259px;
+left: 29px;
+top: 752px;
+
+
+}
+
+
+
+
+
+.frame6{
+    
+position: absolute;
+height: 600px;
+max-width: 320px;
+top: 3511px;
+
+}
+
+
+
+
+.frame7{
+    position: absolute;
+height: 423px;
+max-width: 320px;
+top: 4111px;
+
+
+}
+.frame7In{
+   
+position: absolute;
+height: 410px;
+left: 0%;
+right: 0%;
+top: 0px;
+max-width: 320px;
+
+}
+.frame7In1{
+    /* Frame */
+
+position: absolute;
+height: 368px;
+left: 2.81%;
+right: 50%;
+top: 0px;
+width: 151px;
+
+}
+.frame7In2{/* Frame */
+
+    position: absolute;
+    height: 290px;
+    left: 53.75%;
+    right: 0%;
+    top: 78px;
+    width: 148px;
+    }
+
+.frame7Text1{
+    /* prior clients */
+
+position: absolute;
+height: 20px;
+left: 0%;
+right: 11.26%;
+top: 46px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #ECE7E4;
+
+}
+.frame7Text2{
+    /* Happy customers. */
+
+position: absolute;
+height: 76px;
+left: 0%;
+right: -17.88%;
+top: 66px;
+width: 178px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+/* or 119% */
+
+color: #FFFFFF;
+
+
+}
+.frame7Text3{
+    /* Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. */
+
+position: absolute;
+height: 216px;
+left: 0%;
+right: 0%;
+top: 142px;
+width: 151px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+/* or 160% */
+
+color: #ECE7E4;
+
+
+}
+
+.frame7forImage3{
+    /* IMAGE */
+
+position: absolute;
+width: 128px;
+height: 20px;
+left: calc(50% - 128px/2);
+top: calc(50% - 20px/2 + 117px);
+
+border-radius: 0px;
+
+}
+
+.frame7forImage4{/* IMAGE */
+
+    position: absolute;
+    width: 128px;
+    height: 30px;
+    left: calc(50% - 128px/2);
+    top: calc(50% - 30px/2 - 4px);
+    
+    border-radius: 0px;
+    }
+
+.frame7forImage2{
+    /* IMAGE */
+
+position: absolute;
+width: 128px;
+height: 78px;
+left: calc(50% - 128px/2);
+top: calc(50% - 78px/2 - 88px);
+
+border-radius: 0px;
+
+}
+.frame7forImage1{
+    /* IMAGE */
+
+position: absolute;
+width: 128px;
+height: 36px;
+left: calc(50% - 128px/2);
+top: calc(50% - 36px/2 + 59px);
+
+border-radius: 0px;
+
+}
+
+
+.frame8{
+  
+position: absolute;
+height: 600px;
+max-width: 320px;
+top: 4521px;
+
+
+}
+
+
+.frame9{
+    /* Frame */
+
+position: absolute;
+height: 1741px;
+max-width: 320px;
+top: 5121px;
+
+
+}
+.frame9In{
+    /* Rectangle */
+
+position: absolute;
+height: 1741px;
+left: 0%;
+right: 0%;
+top: 0px;
+max-width: 320px;
+background: #F7F7F7;
+border-radius: 0px;
+
+}
+.frame9In1{
+  /* Frame */
+
+position: absolute;
+width: 180px;
+height: 46px;
+left: calc(50% - 180px/2);
+top: 228px;
+
+
+}
+
+.frame9In2{
+    
+position: absolute;
+height: 168px;
+left: 0.31%;
+right: 0.31%;
+top: 38px;
+width: 318px;
+}
+.frame9In3{
+    /* Frame */
+
+position: absolute;
+height: 1452px;
+left: 8.44%;
+right: 8.44%;
+top: 122px;
+width: 266px;
+
+}
+
+.frame9In3_1{
+   /* Frame */
+
+position: absolute;
+height: 460px;
+left: 1.5%;
+right: 1.5%;
+top: 152px;
+width: 258px;
+
+}
+.frame9In3_2{
+    /* Frame */
+
+position: absolute;
+height: 460px;
+left: 1.5%;
+right: 1.5%;
+top: 642px;
+width: 258px;
+
+}
+
+.frame9In3_3{
+   
+position: absolute;
+height: 460px;
+left: 1.5%;
+right: 1.5%;
+top: 1132px;
+width: 258px;
+}
+
+
+.frame9Text2{
+/* Featured projects` */
+
+position: absolute;
+height: 84px;
+left: 0%;
+right: 0%;
+top: -7px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 39px;
+line-height: 42px;
+/* or 108% */
+
+color: #1B1A1A;
+width: 318px;
+
+}
+.frame9Text3{
+    /* Some of the latest and greatest projects from us here at Wishbone+Partners. */
+
+position: absolute;
+height: 120px;
+left: 0%;
+right: 0%;
+top: 77px;
+width: 318px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+/* or 125% */
+
+color: #645C55;
+
+
+}
+
+
+
+
+
+
+.frame10{
+    /* Frame */
+
+position: absolute;
+height: 800px;
+max-width: 320px;
+top: 6862px;
+
+
+}
+.frame10In
+{
+    height: 800px;
+max-width: 320px;
+left: 0;
+top: 0;
+}
+
+.frame10In1{
+    /* Frame */
+
+position: absolute;
+height: 173px;
+left: 0%;
+right: 0%;
+top: 0px;
+max-width: 320px;
+}
+
+.frame10Text1{
+    /* Meet our team */
+
+position: absolute;
+height: 38px;
+left: 1.26%;
+right: 3.14%;
+top: 7px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height, or 119% */
+
+color: #403E3B;
+
+}
+.frame10Text2{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis. */
+
+position: absolute;
+height: 96px;
+left: 1.26%;
+right: 4.2%;
+top: 52px;
+width: 300.65px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+/* or 160% */
+
+color: #645C55;
+
+
+}
+
+.frame10In1In{
+    /* Frame */
+
+position: absolute;
+height: 46px;
+left: 1.26%;
+right: 50.31%;
+top: 120px;
+
+
+}
+
+.frame10Text1In{
+    /* See team */
+
+position: absolute;
+height: 24px;
+left: 16.23%;
+right: 16.82%;
+top: 28px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.4px;
+
+color: #1B1A1A;
+
+
+}
+
+.frame10In2{
+    /* Frame */
+
+position: absolute;
+height: 628px;
+left: 0.31%;
+right: 0%;
+top: 172px;
+
+width: 317px;
+}
+.frame10In2In1{
+/* Frame */
+
+position: absolute;
+height: 100px;
+left: 5.68%;
+right: 5.99%;
+top: 520px;
+
+
+}
+.frame10In2In2{
+    /* Frame */
+
+position: absolute;
+height: 100px;
+left: 5.68%;
+right: 5.99%;
+top: 260px;
+
+
+}
+.frame10In2In3{
+    /* Frame */
+
+position: absolute;
+height: 100px;
+left: 5.68%;
+right: 5.99%;
+top: 390px;
+
+
+}
+.frame10In2In4{
+  /* Frame */
+
+position: absolute;
+height: 100px;
+left: 5.68%;
+right: 5.99%;
+top: 130px;
+
+  
+}
+.frame10In2In5{
+    /* Frame */
+
+position: absolute;
+height: 100px;
+left: 5.68%;
+right: 5.99%;
+top: 0px;
+
+
+}
+
+
+
+
+
+
+
+
+
+.frame11{
+    /* Frame */
+
+position: absolute;
+height: 314px;
+max-width: 320px;
+top: 7662px;
+
+
+}
+.frame11In
+{height: 314px;
+    max-width: 320px;
+left: 0;
+top: 0;}
+
+.frame11In1{
+    /* Frame */
+
+position: absolute;
+height: 194px;
+left: 1.25%;
+right: 0%;
+top: 37px;
+width: 316px;
+
+}
+
+.frame11Text1{
+/* Think we would be a good fit for your next project? */
+
+position: absolute;
+height: 168px;
+left: 0%;
+right: 0%;
+top: 13px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 42px;
+/* or 105% */
+
+color: #1B1A1A;
+width: 316px;
+
+}
+.frame11Text2{
+    /* Get in touch */
+
+position: absolute;
+height: 20px;
+left: 0.15%;
+right: 42.88%;
+top: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #645C55;
+
+
+}
+
+.frame11In2{/* Frame */
+
+    position: absolute;
+    height: 46px;
+    left: 42.5%;
+    right: 0%;
+    top: 231px;
+    
+    
+
+}
+
+
+
+.frame12{
+/* Frame */
+
+position: absolute;
+height: 204px;
+max-width: 320px;
+top: 7976px;
+}
+.frame12In{
+    height: 204px;
+max-width: 320px;
+left: 0;
+top: 0;
+}
+.frame12In1{
+/* Frame */
+
+position: absolute;
+height: 84px;
+left: 9.44%;
+right: 9.44%;
+top: 60px;
+width: 259.56px;
+
+}
+
+.frame12In1In{
+    /* Frame */
+
+position: absolute;
+height: 60px;
+left: -6.25%;
+right: -13.71%;
+top: 33px;
+width: 311.36px;
+
+}
+
+.frame12TextIn1{
+/* Licensing */
+
+position: absolute;
+width: 63.5px;
+height: 20px;
+left: 236px;
+top: 40px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height, or 154% */
+
+color: #645C55;
+
+
+}
+.frame12In2{
+   /* Frame */
+
+position: absolute;
+width: 112px;
+height: 24.61px;
+right: 6px;
+top: 159px;
+left:auto;
+
+
+}
+
+
+
+
+
+
+
 }
