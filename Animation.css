@@ -1,0 +1,228 @@
+.frame2{
+    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    animation: gradientChange 5s infinite alternate;
+}
+
+@keyframes gradientChange {
+    0% {
+        background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    }
+    25% {
+        background: linear-gradient(45deg, #6a11cb, #2575fc);
+    }
+    50% {
+        background: linear-gradient(45deg, #43cea2, #185a9d);
+    }
+    75% {
+        background: linear-gradient(45deg, #f7971e, #ffd200);
+    }
+    100% {
+        background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    }
+}
+
+
+.frames2forimage{
+    opacity: 1;
+    animation: fadeInOutEffect 5s infinite alternate;
+}
+@keyframes fadeInOutEffect {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+
+.frame3Text1{
+    animation: pulsateHorizontally 3s infinite alternate;
+}
+@keyframes pulsateHorizontally {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100px);
+    }
+}
+
+.frame2Text4{
+    animation: scaleEffect 2s infinite alternate;
+}
+@keyframes scaleEffect {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.frame2Text1{
+    animation: skewEffect 2s infinite alternate;
+}
+@keyframes skewEffect {
+    from {
+        transform: skewX(0deg);
+    }
+    to {
+        transform: skewX(20deg);
+    }
+}
+.frame2Text2{
+    animation: blurEffect 3s infinite alternate;
+}
+@keyframes blurEffect {
+    from {
+        filter: blur(0px);
+    }
+    to {
+        filter: blur(5px);
+    }
+}
+
+.frame3In2{
+    animation: opacityBorderChange 4s infinite alternate;
+    border: 5px solid #FF5733;
+}
+@keyframes opacityBorderChange {
+    0% {
+        opacity: 1;
+        border-color: #FF5733;
+    }
+    50% {
+        opacity: 0.5;
+        border-color: #FFC300;
+    }
+    100% {
+        opacity: 0;
+        border-color: #DAF7A6;
+    }
+}
+
+
+.image{
+    animation: blink 1s infinite alternate;
+}
+@keyframes blink {
+    0% {
+        background-color: #FF5733; /* Начальный цвет */
+        transform: scale(1); /* Исходный масштаб */
+    }
+    50% {
+        background-color: #DAF7A6; /* Цвет во время мигания */
+        transform: scale(1.2); /* Увеличение во время мигания */
+    }
+    100% {
+        background-color: #FF5733; /* Возврат к исходному цвету */
+        transform: scale(1); /* Возврат к исходному масштабу */
+    }
+}
+
+.frame5Text1{
+    animation: resize 2s infinite alternate;
+    white-space: nowrap;
+}
+@keyframes resize {
+    0% {
+        width: 100px; /* Начальная ширина */
+    }
+    100% {
+        width: 200px; /* Конечная ширина */
+    }
+}
+/* Использование кривой Безье для плавности анимации */
+.resize-animation {
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+
+.frame5Text2{
+    animation: fadeIn 3s ease-in-out forwards;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0; /* Полностью прозрачный */
+    }
+    100% {
+        opacity: 1; /* Полностью видимый */
+    }
+}
+
+
+.frame4Text1{
+    animation: moveDown 2s ease-out forwards;
+}
+.frame4Text2{
+    animation: moveDownC 2s ease-out forwards;
+}
+@keyframes moveDown {
+    0% {
+        top: 0; /* Начальная позиция */
+    }
+    100% {
+        top: 266px; /* Конечная позиция */
+    }
+}
+@keyframes moveDownC {
+    0% {
+        top: 500px; /* Начальная позиция */
+    }
+    100% {
+        top: 286px; /* Конечная позиция */
+    }
+}
+
+
+.frame3{
+    animation: colorChange 3s ease-in infinite alternate;
+}
+@keyframes colorChange {
+    0% {
+        background-color: #3498db; /* Начальный цвет */
+    }
+    100% {
+        background-color: #e74c3c; /* Конечный цвет */
+    }
+}
+
+.frame5Text2{
+    animation: borderChange 3s ease-in-out infinite alternate;
+    border: 2px solid #3498db;
+}
+@keyframes borderChange {
+    0% {
+        border-width: 2px;
+    }
+    100% {
+        border-width: 10px;
+    }
+}
+
+.frame5In2{
+    animation: shadowChange 2s ease-in infinite alternate;
+    border-radius: 10px;
+}
+@keyframes shadowChange {
+    0% {
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+    100% {
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+    }
+}
+
+.frame7{
+    animation: saturationChange 3s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite alternate;
+    background-color: #ff6347;
+}
+@keyframes saturationChange {
+    0% {
+        filter: saturate(1);
+    }
+    100% {
+        filter: saturate(3);
+    }
+}
