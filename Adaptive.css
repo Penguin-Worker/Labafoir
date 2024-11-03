@@ -1495,7 +1495,12 @@ color: #403E3B;
 max-width: 320px;
 }
 
-
+.frame3Text1{
+    top: 0;
+}
+.frame3In3{
+    left: 26%;
+}
 .frame3Text2{
     /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere. */
 
@@ -2042,7 +2047,7 @@ color: #645C55;
 
 position: absolute;
 height: 46px;
-left: 1.26%;
+left: 2.66%;
 right: 50.31%;
 top: 120px;
 
@@ -2194,6 +2199,9 @@ color: #1B1A1A;
 width: 316px;
 
 }
+.frame11In2{
+left: 45.5%;
+}
 .frame11Text2{
     /* Get in touch */
 
@@ -2221,7 +2229,7 @@ color: #645C55;
 
     position: absolute;
     height: 46px;
-    left: 42.5%;
+    left: 46.6%;
     right: 0%;
     top: 231px;
     
@@ -2301,8 +2309,12 @@ left:auto;
 
 
 }
-
-
+.frame12In1In{
+    width: 304px;
+}
+.frame12Image1{
+   left: -6.25%;
+}
 
 
 
