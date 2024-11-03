@@ -46,9 +46,9 @@ width: 512px;
 
 position: absolute;
 height: 24px;
-left: 2.73%;
-right: 84.96%;
-top: calc(50% - 24px/2);
+left: 10px;
+
+top: 10px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -65,9 +65,9 @@ color: #1B1A1A;
 
 position: absolute;
 height: 24px;
-left: 18.55%;
-right: 69.53%;
-top: calc(50% - 24px/2);
+left: 90px;
+
+top: 10px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -84,9 +84,9 @@ color: #1B1A1A;
 
 position: absolute;
 height: 24px;
-left: 32.03%;
-right: 59.77%;
-top: calc(50% - 24px/2);
+left: 160px;
+
+top: 10px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -104,9 +104,9 @@ color: #1B1A1A;
 
 position: absolute;
 height: 24px;
-left: 44.34%;
-right: 45.9%;
-top: calc(50% - 24px/2);
+left: 220px;
+
+top: 10px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -124,9 +124,9 @@ color: #1B1A1A;
 
 position: absolute;
 height: 24px;
-left: 57.23%;
-right: 29.49%;
-top: calc(50% - 24px/2);
+left: 288px;
+
+top: 10px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -636,9 +636,9 @@ color: #1B1A1A;
 max-width: 768px;
 position: absolute;
 height: 359px;
-left: 0;
+left: 10px;
 top: 122px;
-
+width: 748px;
 
 }
 .frame5In2In1{
@@ -919,7 +919,7 @@ max-width: 287px;
 
 position: absolute;
 height: 290px;
-left: 38.68%;
+left: 34.68%;
 right: 12.33%;
 top: 0px;
 width: 230.4px;
@@ -957,6 +957,9 @@ height: 918px;
 max-width: 768px;
 top: 4383px;
 
+}
+.frame9Text2{
+    top:-6px;
 }
  .frame9In{
 /* Frame */
@@ -1066,6 +1069,17 @@ top: 5217px;
 
 
 }
+.frame10In1{
+    left:-4px;
+    top:10px;
+}
+.frame10In1In{
+top: 128px;
+}
+
+
+
+
 .frame10In{
     max-width: 708px;
     left: 5%;
@@ -1076,11 +1090,20 @@ top: 5217px;
 
 position: absolute;
 height: 392px;
-left: -2.45%;
+left: -20px;
 right: 0%;
-top: 155px;
-max-width: 752px;
+top: 172px;
+max-width: 740px;
 
+}
+
+
+
+.frame10In2In4{
+    left: 385px;
+}
+.frame10In2In2{
+    left: 385px;
 }
 .frame11{
     /* Frame */
@@ -1109,9 +1132,9 @@ max-width: 622.93px;
 
 position: absolute;
 height: 46px;
-left: 87.59%;
+left: 555.5px;
 right: 0%;
-top: 34px;
+top: 32px;
 max-width: 78px;
 word-wrap: break-word;
 }
@@ -1125,7 +1148,7 @@ height: 48px;
 left: 13.79%;
 right: 13.79%;
 top: 11px;
-
+width: 107px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
